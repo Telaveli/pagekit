@@ -14,7 +14,7 @@ date_default_timezone_set($app['config']['app.timezone']);
 foreach ($app['config']['app.providers'] as $provider) {
     $app->register($provider);
 }
-/*
+*/
 try {
 
     class InstallerException extends RuntimeException {}
